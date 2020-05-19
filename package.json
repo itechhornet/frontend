@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/akveo/ngx-admin.git"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
   "bugs": {
     "url": "https://github.com/akveo/ngx-admin/issues"
   },
