@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akveo/ngx-admin.git"
+    "url": "git+https://github.com/itechhornet/frontend.git"
   },
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "bugs": {
