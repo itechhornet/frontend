@@ -1,11 +1,11 @@
 steps:
 
   # Install node packages
-  - name: 'gcr.io/cloud-builders/npm:node-10.15.1'
+  - name: 'gcr.io/cloud-builders/npm:node-10.16.3'
     args: [ 'install' ]
 
   # Build productive files
-  - name: 'gcr.io/cloud-builders/npm:node-10.15.1'
+  - name: 'gcr.io/cloud-builders/npm:node-10.16.3'
     args: [ 'run', 'build', '--prod' ]
 
   # Deploy to google cloud app egnine
